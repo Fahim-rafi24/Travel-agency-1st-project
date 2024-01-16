@@ -131,13 +131,6 @@ nav{
     font-weight: 400;
     line-height: 26px;
 }
-
-
-
-
-
-
-
 /* header-img-contener */
 .header-img-contener{
     width: 60vw;
@@ -153,7 +146,6 @@ nav{
 .header-img-bottom{
     display: flex;
 }
-
 .header-img-top-left{
     background-image: url('Images/Rectangle\ 5.png');
     width: 573px;
@@ -194,7 +186,60 @@ nav{
     background-position: center;
     background-repeat: no-repeat;
     margin: 3px;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
 }
+/* second-intro */
+.second-intro{
+    width: 40vw;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.second-intro h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.second-intro p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+/* second-intro-conteiner */
+.second-intro-conteiner{
+    /*  */
+}
+.second-intro-conteiner-top{
+    display: flex;
+    gap: 30px;
+}
+.intro-conteiner{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    padding-left: 1vw;
+    padding-top: 2vh;
+    background: rgba(41, 206, 246, 0.05);
+}
+.intro-conteiner-same{
+    background: rgba(233, 68, 68, 0.05);
+}
+.second-intro-conteiner .second-intro-conteiner-top{
+    width: 50%;
+    margin: auto;
+}
+.second-intro-conteiner .second-intro-conteiner-bottom{
+    margin: 50px 0vw 10px 35vw;
+}
+
+
+
+
+
 
 @media (max-width: 600px) {
     nav{
@@ -280,8 +325,35 @@ nav{
         margin-top: 3px;
     }
     .header-img-contener{
-        width: 80%;
+        width: 83%;
     }
+    .second-intro{
+        width: 90vw;
+    }
+    .second-intro h2{
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .second-intro-conteiner-top{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .intro-conteiner{
+        width: 335px;
+        height: 289px;
+        border-radius: 16px;
+        padding-left: 1vw;
+        padding-top: 2vh;
+    }
+    .second-intro-conteiner .second-intro-conteiner-top{
+        width: 85%;
+        margin: auto;
+    }
+    .second-intro-conteiner .second-intro-conteiner-bottom{
+        width: 85%;
+        margin: auto;
+    }
+
 }
 
 
