@@ -114,13 +114,87 @@ nav{
 }
 /* center-intro */
 .center-intro{
-    
+    width: 80vw;
+    margin: auto;
+    margin-top: 50px;
+}
+.center-intro h2{
+    text-align: center;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.center-intro p{
+    text-align: center;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
 
 
 
 
 
+
+
+/* header-img-contener */
+.header-img-contener{
+    width: 60vw;
+    margin: auto;
+    margin-top: 50px;
+}
+.header-img-top{
+    display: flex;
+}
+.header-img-medile{
+    display: flex;
+}
+.header-img-bottom{
+    display: flex;
+}
+
+.header-img-top-left{
+    background-image: url('Images/Rectangle\ 5.png');
+    width: 573px;
+    height: 300px;
+}
+.header-img-top-right{
+    background-image: url('Images/Rectangle\ 8.png');
+    width: 573px;
+    height: 300px;
+}
+.header-img-medile-left{
+    background-image: url('Images/Rectangle\ 6.png');
+    width: 374px;
+    height: 286px;
+}
+.header-img-medile-medile{
+    background-image: url('Images/Rectangle\ 7.png');
+    width: 474px;
+    height: 286px;
+}
+.header-img-medile-right{
+    background-image: url('Images/Rectangle\ 9.png');
+    width: 288px;
+    height: 286px;
+}
+.header-img-bottom-left{
+    background-image: url('Images/Rectangle\ 11\ \(1\).png');
+    width: 473px;
+    height: 300px;
+}
+.header-img-bottom-right{
+    background-image: url('Images/Rectangle\ 10.png');
+    width: 673px;
+    height: 300px;
+}
+.header-img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 3px;
+}
 
 @media (max-width: 600px) {
     nav{
@@ -186,6 +260,27 @@ nav{
     .header-information-right img{
         width: 305px;
         height: 322px;
+    }
+    .center-intro h2{
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .header-img-top{
+        flex-direction: column;
+    }
+    .header-img-medile{
+        flex-direction: column;
+    }
+    .header-img-bottom{
+        flex-direction: column;
+    }
+    .header-img{
+        width: 305px;
+        height: 176px;
+        margin-top: 3px;
+    }
+    .header-img-contener{
+        width: 80%;
     }
 }
 
