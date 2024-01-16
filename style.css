@@ -258,7 +258,6 @@ footer{
 }
 .foot-p{
     color: #5A5A5D;
-    display: flex;
     width: 35%;
     margin: auto;
     margin-top: 10px;
@@ -273,8 +272,17 @@ footer{
     margin: auto;
     margin-top: 50px;
 }
-
-
+.foot-hr{
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+}
+.foot-right{
+    width: 11%;
+    margin: auto;
+    margin-top: 50px;
+    margin-top: 50px;
+}
 
 @media (max-width: 600px) {
     nav{
@@ -387,6 +395,35 @@ footer{
     .second-intro-conteiner .second-intro-conteiner-bottom{
         width: 85%;
         margin: auto;
+    }
+    .foot-name{
+        width: 40%;
+        margin: auto;
+    }
+    .foot-name img{
+        width: 28.724px;
+        height: 33.516px;
+    }
+    .foot-p{
+        width: 90%;
+        text-align: center;
+        margin: auto;
+    }
+    .foot-icon{
+        width: 40%;
+        margin: auto;
+    }
+    .foot-hr{
+        width: 80%;
+        margin: auto;
+    }
+    .foot-right{
+        width: 44%;
+        margin: auto;
+        margin-top: 50px;
+        margin-top: 50px;
+        font-size: 14px;
+        font-weight: 300;
     }
 
 }
