@@ -19,6 +19,7 @@ button{
 
 
 
+
 /* nav */
 nav{
     display: flex;
@@ -235,10 +236,66 @@ nav{
 .second-intro-conteiner .second-intro-conteiner-bottom{
     margin: 50px 0vw 10px 35vw;
 }
-
-
-
-
+.main-top{
+    width: 70vw;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    gap: 5vw;
+}
+.main-top-left{
+    width: 33vw;
+}
+.main-top-right{
+    width: 32vw;
+}
+.main-bottom{
+    width: 70vw;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    gap: 5vw;
+}
+.main-bottom-left{
+    width: 30vw;
+    border: 1px dotted black;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.main-bottom-left-top{
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+.main-bottom-left-box .main-bottom-button-container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.main-bottom-right{
+    width: 672px;
+}
+.main-bottom-button{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 5px;
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+}
+main p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+main li{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
 footer{
     background: rgba(19, 19, 24, 0.05);
     width: 100%;
@@ -283,7 +340,6 @@ footer{
     margin-top: 50px;
     margin-top: 50px;
 }
-
 @media (max-width: 600px) {
     nav{
         display: flex;
@@ -396,6 +452,50 @@ footer{
         width: 85%;
         margin: auto;
     }
+    .main-top{
+        width: 90vw;
+        flex-direction: column;
+    }
+    .main-top-left{
+        width: 90vw;
+    }
+    .main-top-right{
+        width: 80vw;
+    }
+    .main-top-right img{
+        width: 335px;
+        height: 200px;
+    }
+    .main-bottom{
+        width: 90vw;
+        flex-direction: column;
+    }
+    .main-bottom-left{
+        width: 90vw;
+    }
+    .main-bottom-right{
+        width: 80vw;
+    }
+    .main-bottom-button{
+        width: 288px;
+        height: 52px;
+        text-align: center;
+    }
+    .main-bottom-right{
+        
+    }
+    .main-bottom-right img{
+        width: 345px;
+        height: 280px;
+    }
+
+
+
+
+
+
+
+
     .foot-name{
         width: 40%;
         margin: auto;
