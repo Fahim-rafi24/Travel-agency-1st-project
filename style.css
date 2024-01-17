@@ -1,14 +1,9 @@
-
-
 body{
     margin: 0px;
     padding: 0px;
     background: #FFF;
     font-family: Mulish;
 }
-
-
-
 button{
     border-radius: 8px;
     background: #FF5400;
@@ -16,10 +11,6 @@ button{
     width: 174px;
     height: 52px;
 }
-
-
-
-
 /* nav */
 nav{
     display: flex;
@@ -209,10 +200,6 @@ nav{
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-}
-/* second-intro-conteiner */
-.second-intro-conteiner{
-    /*  */
 }
 .second-intro-conteiner-top{
     display: flex;
